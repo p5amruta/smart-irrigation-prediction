@@ -102,10 +102,12 @@ water usage, and reducing crop stress.
 
 ## Repository Structure
 
-
+```
 ├── Smart_Irrigation_Prediction.ipynb
 ├── README.md
 ├── cropdata_updated.csv
+```
+
 
 ---
 
