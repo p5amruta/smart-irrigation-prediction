@@ -10,14 +10,14 @@ water usage, reduce wastage, and prevent crop stress.
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 To build a machine learning model that predicts whether irrigation is required
 (`Yes` or `No`) using crop, soil, and environmental data.  
 The problem is formulated as a **binary classification task**.
 
 ---
 
-## 📂 Dataset Description
+##  Dataset Description
 The dataset contains **16,411 records**, where each row represents a crop sample
 under specific environmental conditions.
 
@@ -36,7 +36,7 @@ under specific environmental conditions.
 
 ---
 
-## 🧹 Data Preprocessing
+##  Data Preprocessing
 The following preprocessing steps were applied:
 - Dataset inspection using `info()` and `isnull()`
 - No missing values were found, so no imputation was required
@@ -47,20 +47,20 @@ The following preprocessing steps were applied:
 
 ---
 
-## 🤖 Models Used
+##  Models Used
 
-### 1️⃣ Logistic Regression (Baseline Model)
+### 1️ Logistic Regression (Baseline Model)
 - Used for its simplicity and interpretability
 - Serves as a baseline for comparison
 
-### 2️⃣ Random Forest Classifier (Improved Model)
+### 2️ Random Forest Classifier (Improved Model)
 - Captures non-linear relationships
 - Provides better accuracy and robustness
 - Allows feature importance analysis
 
 ---
 
-## 📊 Evaluation Metrics
+##  Evaluation Metrics
 The models were evaluated using:
 - Accuracy
 - Precision
@@ -71,7 +71,7 @@ Random Forest outperformed Logistic Regression and was selected as the final mod
 
 ---
 
-## 🔍 Feature Importance
+##  Feature Importance
 Feature importance analysis from the Random Forest model showed that:
 - **Moisture Index (MOI)**
 - **Temperature**
@@ -81,7 +81,7 @@ aligns well with real-world agricultural understanding.
 
 ---
 
-## ✅ Final Inference
+## Final Inference
 Among the models tested, the Random Forest Classifier provided better prediction
 performance compared to Logistic Regression. The model effectively identifies
 irrigation requirements based on soil moisture, temperature, humidity, and crop
@@ -92,7 +92,7 @@ water usage, and reducing crop stress.
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - Python
 - Pandas
 - Scikit-learn
@@ -100,7 +100,7 @@ water usage, and reducing crop stress.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 ├── Smart_Irrigation_Prediction.ipynb
 ├── README.md
 ├── cropdata_updated.csv
@@ -108,13 +108,13 @@ water usage, and reducing crop stress.
 
 ---
 
-## 🚀 How to Run
+## How to Run
 1. Open the notebook in Google Colab or Jupyter Notebook
 2. Upload the dataset (`cropdata_updated.csv`)
 3. Run the notebook cells sequentially
 
 ---
 
-## 📌 Author
-**[Your Name]**  
+## Author
+**Amruha Panangipalli**  
 Machine Learning / Data Science Enthusiast
